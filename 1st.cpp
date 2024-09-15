@@ -53,5 +53,8 @@ public:
 };
 int main()
 {
-    
+    Trie *node=new Trie();
+    node->insert("Lund Samarth");
+   cout<< node->search("Lund Samarth");
+   return 0;
 }
